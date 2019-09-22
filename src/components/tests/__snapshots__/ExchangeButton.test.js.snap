@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeButton renders without crashing given the required props 1`] = `
+<div
+  className="exchange-button primary-button"
+  onClick={[MockFunction]}
+>
+  Exchange
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyList renders without crashing given the required props 1`] = `
+<StateManager
+  classNamePrefix="currency-list"
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  onChange={[Function]}
+  options={Array []}
+  value={
+    Object {
+      "label": "",
+      "value": "",
+    }
+  }
+/>
+`;

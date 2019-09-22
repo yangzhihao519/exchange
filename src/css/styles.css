@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif
+}
+
+.app{
+    padding: 1em;
+}
+
+.app .area-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.app .area-container .area{
+    padding: 1em 0;
+    display: flex;
+    flex-grow: 1
+}
+
+.app .area-container .area__middle{
+    position: relative;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.app .area-container .area__middle .switch-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.area .area__pocket{
+    flex-grow: 1;
+    width: 50%;
+}
+
+.area .area__input{
+    flex-grow: 1;
+    text-align: right;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.area .area__input input{
+    border: none;
+    font-size: 2rem;
+    text-align: right;
+    max-width: 80%;
+}
+
+.area .area__balance{
+    color: #8b959e;
+    font-size: 1rem;
+}
+
+.app .exchange-rate{
+    border: 1px solid #0075EB;
+    color: #0075EB;
+    font-size: 0.8rem;
+    border-radius: 1.2em;
+    padding: 0.5em 2em;
+    display: inline-block;
+}
+
+.app .primary-button{
+    background-color: #EB008D;
+    color: white;
+    cursor: pointer;
+    line-height: 1.5em;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75em 4em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+.app .exchange-button{
+    margin-top: 2em;
+}
+
+.app .exchange-button:hover{
+    background-color: #D2007E
+}
+
+.app .exchange-button.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #f2b3d8
+}
+
+.app .switch-button{
+    border: 1px solid #0075EB;
+    display: inline-block;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url(../images/switch.png);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: center;
+    text-align: center;
+    padding: 0.1em;
+}
+
+.currency-list__control{
+    border: none !important;
+    font-size: 2rem;
+    max-width: 120px;
+}

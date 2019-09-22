@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing given the required props 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="app__title"
+  >
+    Exchange
+  </div>
+  <div
+    className="area-container"
+  >
+    <div>
+      Sell Out Balance is not available.
+    </div>
+    <div
+      className="area__middle"
+    >
+      <SwitchButton
+        onSwitchExchange={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      />
+    </div>
+    <div>
+      Buy In Balance is not available.
+    </div>
+  </div>
+  <ExchangeButton
+    disabled={true}
+    onClickExchange={
+      [MockFunction] {
+        "calls": Array [
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />
+</div>
+`;

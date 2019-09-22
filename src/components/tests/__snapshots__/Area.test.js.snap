@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Area renders without crashing given the required props 1`] = `
+<div
+  className="area area--buyin"
+>
+  <div
+    className="area__pocket"
+  >
+    <CurrencyList
+      allCurrencies={Array []}
+      isSellingOut={false}
+      onSelectCurrency={[MockFunction]}
+    />
+    <div
+      className="area__balance"
+    >
+      Balance: 
+    </div>
+  </div>
+  <div
+    className="area__input"
+  >
+    <ChangeExchangeValueField
+      exchange={Object {}}
+      isSellingOut={false}
+      onInputChange={[MockFunction]}
+    />
+  </div>
+</div>
+`;

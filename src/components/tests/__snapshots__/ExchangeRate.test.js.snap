@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeRate renders without crashing given the required props 1`] = `
+<div
+  className="exchange-rate"
+>
+  <div>
+    1
+     = 
+    NaN
+  </div>
+</div>
+`;
+
+exports[`ExchangeRate should render correctly with no props 1`] = `
+<div
+  className="exchange-rate"
+/>
+`;
