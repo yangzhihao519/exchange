@@ -21,7 +21,7 @@ class ChangeExchangeValueField extends React.Component<ChangeExchangeValueFieldP
 
         return (<div> 
             {inputValue > 0 && <span>{isSellingOut ? "-" : "+"}</span>}
-            <input type="text" value={inputValue} onChange={(e: any) => this.handleChange(e)} />
+            <input type="number" value={inputValue} onChange={(e: any) => this.handleChange(e)} />
         </div>)
     }
     
